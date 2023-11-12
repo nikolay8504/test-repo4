@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
    steps:
- - name: Checkout Repository
+
+ - name: Checkout
    uses: actions/checkout@v2
 
   - name: Configure AWS Credentials
