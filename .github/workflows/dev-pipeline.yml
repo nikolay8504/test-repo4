@@ -32,4 +32,4 @@ jobs:
       run: cd ./dev/ &&  terraform plan
 
     - name: Terraform Apply
-      run: cd ./dev/ &&  terraform apply -auto-approve
+      run: cd ./dev/ &&  terraform apply
