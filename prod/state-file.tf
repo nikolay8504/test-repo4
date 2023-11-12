@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket = "state-terraform-pragmatic-nikolay1"
+  bucket = "state-terraform-pragmatic-nikolay"
 }
 
 resource "aws_dynamodb_table" "terraform_state_lock" {
